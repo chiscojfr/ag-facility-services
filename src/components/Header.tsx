@@ -34,7 +34,7 @@ export default function Header() {
           {/* Logo */}
           <Link to={`/${lang}/`} className="flex items-center shrink-0">
             <img
-              src="/logo2.png"
+              src={`${import.meta.env.BASE_URL}logo2.png`}
               alt="AG Facility Services"
               className="h-10 w-auto object-contain"
             />

@@ -14,7 +14,7 @@ export default function Footer() {
           <div>
             <div className="mb-3">
               <img
-                src="/logo2.png"
+                src={`${import.meta.env.BASE_URL}logo2.png`}
                 alt="AG Facility Services"
                 className="h-10 w-auto object-contain brightness-0 invert"
               />
