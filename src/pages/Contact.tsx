@@ -65,13 +65,20 @@ export default function Contact() {
                   <span className="text-sm font-medium">{t('contact.phone')}</span>
                 </a>
                 <a
-                  href="mailto:admin@agfacilitypr.com"
+                  href="mailto:info@agfacilitypr.com"
                   className="flex items-center gap-3 text-[#333333] hover:text-[#1B4E8C] transition-colors"
                 >
                   <Mail size={18} className="text-[#1B4E8C]" />
                   <span className="text-sm font-medium">{t('contact.email')}</span>
                 </a>
               </div>
+            </div>
+            {/* Appointment note */}
+            <p className="text-xs text-[#666666] italic">{t('contact.appointment_note')}</p>
+            {/* Coverage */}
+            <div className="border-t border-gray-200 pt-4">
+              <p className="text-xs font-bold uppercase tracking-widest text-[#1B4E8C] mb-1">{t('contact.coverage_title')}</p>
+              <p className="text-xs text-[#333333]">{t('contact.coverage_text')}</p>
             </div>
           </div>
 

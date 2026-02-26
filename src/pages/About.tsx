@@ -1,12 +1,13 @@
 import { useTranslation } from 'react-i18next';
-import { Shield, Eye, MessageSquare, LayoutList, ClipboardCheck } from 'lucide-react';
+import { LayoutGrid, Eye, ClipboardCheck, CheckCircle, Star, Scale } from 'lucide-react';
 
 const valueIcons = [
-  <Shield size={22} className="text-[#1B4E8C]" />,
+  <LayoutGrid size={22} className="text-[#1B4E8C]" />,
   <Eye size={22} className="text-[#1B4E8C]" />,
-  <MessageSquare size={22} className="text-[#1B4E8C]" />,
-  <LayoutList size={22} className="text-[#1B4E8C]" />,
   <ClipboardCheck size={22} className="text-[#1B4E8C]" />,
+  <CheckCircle size={22} className="text-[#1B4E8C]" />,
+  <Star size={22} className="text-[#1B4E8C]" />,
+  <Scale size={22} className="text-[#1B4E8C]" />,
 ];
 
 interface Value {

@@ -22,8 +22,9 @@ export default function Model() {
 
       {/* Description */}
       <section className="bg-white py-14 px-4">
-        <div className="max-w-3xl mx-auto text-center">
+        <div className="max-w-3xl mx-auto text-center space-y-4">
           <p className="text-[#333333] text-base leading-relaxed">{t('model.desc')}</p>
+          <p className="text-[#333333] text-base leading-relaxed">{t('model.desc2')}</p>
         </div>
       </section>
 

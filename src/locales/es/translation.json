@@ -11,30 +11,53 @@
   },
   "home": {
     "hero_tagline": "Estructura. Prevención. Control.",
-    "hero_title": "Mantenimiento Preventivo Estructurado",
-    "hero_subtitle": "para Facilidades Comerciales e Institucionales",
-    "hero_desc": "Un modelo estructurado para organizaciones que exigen control.",
+    "hero_title": "Mantenimiento Operativo Estructurado para Facilidades Institucionales",
+    "hero_subtitle": "",
+    "hero_desc": "Servicio preventivo programado, gestión operativa continua y control documentado para organizaciones que valoran orden, continuidad y planificación.",
     "hero_cta": "Solicitar Propuesta",
     "brief_title": "¿Qué hacemos?",
-    "brief_text": "AG Facility Services ofrece mantenimiento preventivo y correctivo bajo un modelo estructurado orientado a continuidad operacional y planificación técnica.",
+    "brief_text": "Gestión estructurada de mantenimiento institucional con enfoque directo y accesible.",
     "quick_access": "Accesos Directos"
   },
   "services": {
-    "page_title": "Servicios de Mantenimiento",
+    "page_title": "Áreas de Servicio",
     "intro": "AG Facility Services ofrece mantenimiento preventivo y correctivo para facilidades comerciales e institucionales bajo un modelo estructurado orientado a continuidad operacional y control técnico.",
     "sub_intro": "Nuestros servicios se organizan mediante esquemas de atención planificados y ajustados a la operación específica de cada facilidad.",
     "areas_title": "Áreas de Servicio",
     "areas": [
-      "Sistemas eléctricos",
-      "Sistemas de plomería",
-      "Sistemas de aire acondicionado",
-      "Mantenimiento general de interiores y exteriores"
-    ]
+      {
+        "title": "Mantenimiento Interior",
+        "desc": "Conservación y corrección de elementos internos de la facilidad.",
+        "examples": "Plafones acústicos · Gypsum board · Pintura correctiva · Ajustes de puertas"
+      },
+      {
+        "title": "Mantenimiento Eléctrico Preventivo y Correctivo",
+        "desc": "Supervisión y atención de componentes eléctricos operativos.",
+        "examples": "Luminarias · Interruptores · Receptáculos · Verificaciones visuales"
+      },
+      {
+        "title": "Mantenimiento de Plomería Preventivo y Correctivo",
+        "desc": "Intervenciones programadas en sistemas sanitarios visibles.",
+        "examples": "Grifería · Sanitarios · Llaves angulares · Inspección de fugas visibles"
+      },
+      {
+        "title": "Mantenimiento de Aire Acondicionado",
+        "desc": "Mantenimiento preventivo programado de unidades tipo mini-split y cassette.",
+        "examples": "Limpieza de filtros · Difusores · Revisión general"
+      },
+      {
+        "title": "Mantenimiento Exterior y Áreas Comunes",
+        "desc": "Conservación de áreas externas para mantener seguridad e imagen institucional.",
+        "examples": "Limpieza a presión · Placas solares · Pintura de estacionamientos · Drenajes básicos"
+      }
+    ],
+    "footer_note": "Servicios y proyectos adicionales disponibles bajo evaluación técnica y cotización independiente."
   },
   "model": {
     "page_title": "Nuestro Modelo de Mantenimiento",
     "intro": "Un enfoque basado en prevención, estructura y control.",
-    "desc": "AG Facility Services trabaja bajo un modelo estructurado diseñado para anticipar condiciones, mantener planificación organizada y reducir situaciones imprevistas.",
+    "desc": "Operamos bajo un modelo programado que integra inspección continua, mantenimiento preventivo y correcciones operativas necesarias para mantener cada facilidad en condiciones funcionales y presentables.",
+    "desc2": "Nuestro sistema permite reducir emergencias, organizar tareas pendientes y brindar visibilidad clara del estado de la instalación.",
     "process_title": "Proceso de Inicio",
     "steps": [
       {
@@ -63,34 +86,38 @@
     "page_title": "Sobre AG Facility Services",
     "intro": "AG Facility Services es una empresa especializada en mantenimiento preventivo y correctivo para facilidades comerciales e institucionales en Puerto Rico.",
     "intro2": "Nuestro modelo está diseñado para ofrecer estructura, control y continuidad operacional a través de visitas programadas, inspección continua y ejecución organizada.",
-    "approach_title": "Nuestro Enfoque",
-    "approach1": "AG Facility Services surge de experiencia directa en proyectos de construcción y mantenimiento de facilidades comerciales, integrando una base técnica sólida con un modelo estructurado orientado a prevención y control operativo.",
-    "approach2": "La dirección técnica cuenta con formación en ingeniería y experiencia en manejo de proyectos, lo que permite establecer alcances claros, planificación organizada y ejecución estructurada del mantenimiento.",
+    "approach_title": "Experiencia Profesional en Facilidades Comerciales e Institucionales",
+    "approach1": "Nuestro equipo cuenta con experiencia previa en facilidades comerciales, hospitalarias y corporativas, participando en trabajos de mantenimiento, coordinación técnica y mejoras interiores en entornos operacionales activos.",
+    "approach2": "La experiencia acumulada en estos entornos ha permitido desarrollar un enfoque estructurado orientado a continuidad operacional, imagen institucional y prevención.",
     "mission_title": "Misión",
     "mission": "Brindar servicios de mantenimiento preventivo y correctivo para facilidades comerciales e institucionales en Puerto Rico, mediante un modelo estructurado, organizado y transparente que garantice continuidad operacional, prevención de fallas y control administrativo.",
     "vision_title": "Visión",
     "vision": "Convertirnos en la empresa de referencia en Puerto Rico en mantenimiento preventivo estructurado para facilidades comerciales e institucionales, destacándonos por nuestra organización, confiabilidad y modelo de servicio escalable.",
     "values_title": "Valores",
     "values": [
-      { "title": "Profesionalismo", "desc": "Operamos bajo estándares claros de conducta y cumplimiento." },
+      { "title": "Estructura", "desc": "Trabajamos bajo esquemas organizados que aseguran planificación consistente y ejecución clara." },
       { "title": "Prevención", "desc": "Priorizamos la identificación temprana de condiciones para evitar interrupciones operacionales." },
-      { "title": "Transparencia", "desc": "Mantenemos comunicación clara en cada intervención." },
-      { "title": "Organización", "desc": "Trabajamos bajo esquemas estructurados y programados." },
-      { "title": "Responsabilidad Operacional", "desc": "Delimitamos claramente los alcances del servicio para garantizar ejecución técnica adecuada." }
+      { "title": "Control", "desc": "Mantenemos seguimiento documentado de cada intervención y estado de la instalación." },
+      { "title": "Responsabilidad", "desc": "Delimitamos claramente los alcances del servicio y respondemos por nuestros compromisos." },
+      { "title": "Confianza", "desc": "Construimos relaciones sostenidas a través de consistencia, transparencia y cumplimiento." },
+      { "title": "Cumplimiento Legal", "desc": "Operamos bajo responsabilidad contractual y cumplimiento regulatorio aplicable." }
     ]
   },
   "contact": {
-    "page_title": "Solicitar Propuesta",
-    "intro": "Si desea conocer cómo estructurar el mantenimiento de su facilidad bajo un modelo preventivo y programado, puede comunicarse con nosotros.",
+    "page_title": "Coordinar Reunión",
+    "intro": "Si su organización busca un modelo estructurado de mantenimiento, estaremos disponibles para coordinar una reunión y evaluar sus necesidades operativas.",
     "phone": "(787) 590-1577",
-    "email": "admin@agfacilitypr.com",
+    "email": "info@agfacilitypr.com",
+    "appointment_note": "Atención coordinada mediante cita previa.",
+    "coverage_title": "Cobertura en Puerto Rico",
+    "coverage_text": "Servicios disponibles para facilidades comerciales e institucionales en toda la isla.",
     "form": {
       "name": "Nombre",
       "company": "Empresa",
       "phone": "Teléfono",
       "email": "Correo electrónico",
       "message": "Mensaje",
-      "submit": "Enviar Solicitud",
+      "submit": "Solicitar Propuesta o Coordinar Reunión",
       "success": "Su solicitud fue enviada correctamente. Le contactaremos pronto.",
       "error": "Ocurrió un error. Por favor intente nuevamente o escríbanos directamente."
     }

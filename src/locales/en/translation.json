@@ -11,30 +11,53 @@
   },
   "home": {
     "hero_tagline": "Structure. Prevention. Control.",
-    "hero_title": "Structured Preventive Maintenance",
-    "hero_subtitle": "for Commercial and Institutional Facilities",
-    "hero_desc": "A structured model for organizations that demand control.",
+    "hero_title": "Structured Operational Maintenance for Institutional Facilities",
+    "hero_subtitle": "",
+    "hero_desc": "Scheduled preventive service, continuous operational management, and documented control for organizations that value order, continuity, and planning.",
     "hero_cta": "Request Proposal",
     "brief_title": "What We Do",
-    "brief_text": "AG Facility Services provides preventive and corrective maintenance under a structured model focused on operational continuity and technical planning.",
+    "brief_text": "Structured institutional facility management with a direct and accessible approach.",
     "quick_access": "Quick Access"
   },
   "services": {
-    "page_title": "Maintenance Services",
+    "page_title": "Service Areas",
     "intro": "AG Facility Services provides preventive and corrective maintenance for commercial and institutional facilities under a structured model designed to ensure operational continuity and technical control.",
     "sub_intro": "Our services are organized through planned service frameworks tailored to each facility's operational needs.",
     "areas_title": "Service Areas",
     "areas": [
-      "Electrical systems",
-      "Plumbing systems",
-      "Air conditioning systems",
-      "General interior and exterior maintenance"
-    ]
+      {
+        "title": "Interior Maintenance",
+        "desc": "Preservation and correction of internal facility elements.",
+        "examples": "Acoustic ceiling tiles · Gypsum board · Corrective painting · Door adjustments"
+      },
+      {
+        "title": "Preventive and Corrective Electrical Maintenance",
+        "desc": "Supervision and care of operational electrical components.",
+        "examples": "Lighting fixtures · Switches · Receptacles · Visual panel inspections"
+      },
+      {
+        "title": "Preventive and Corrective Plumbing Maintenance",
+        "desc": "Scheduled interventions on visible sanitary systems.",
+        "examples": "Faucets · Toilets · Angle valves · Visible leak inspection"
+      },
+      {
+        "title": "Air Conditioning Maintenance",
+        "desc": "Scheduled preventive maintenance for mini-split and cassette units.",
+        "examples": "Filter cleaning · Diffusers · General unit inspection"
+      },
+      {
+        "title": "Exterior and Common Areas Maintenance",
+        "desc": "Preservation of external areas to maintain safety and institutional image.",
+        "examples": "Pressure washing · Solar panels · Parking lot painting · Basic drain inspection"
+      }
+    ],
+    "footer_note": "Additional services and projects available under technical evaluation and independent quotation."
   },
   "model": {
     "page_title": "Our Maintenance Model",
     "intro": "An approach based on prevention, structure, and control.",
-    "desc": "AG Facility Services operates under a structured maintenance model designed to anticipate conditions, maintain organized planning, and reduce unexpected operational disruptions.",
+    "desc": "We operate under a scheduled model that integrates continuous inspection, preventive maintenance, and necessary operational corrections to keep each facility in functional and presentable condition.",
+    "desc2": "Our system reduces emergencies, organizes pending tasks, and provides clear visibility into the status of the installation.",
     "process_title": "Service Initiation Process",
     "steps": [
       {
@@ -63,34 +86,38 @@
     "page_title": "About AG Facility Services",
     "intro": "AG Facility Services specializes in preventive and corrective maintenance for commercial and institutional facilities in Puerto Rico.",
     "intro2": "Our model is designed to provide structure, control, and operational continuity through scheduled visits, continuous oversight, and organized execution.",
-    "approach_title": "Our Approach",
-    "approach1": "AG Facility Services is built upon direct experience in construction and facility maintenance projects, integrating a strong technical foundation with a structured, prevention-oriented operational model.",
-    "approach2": "Technical leadership is supported by engineering background and project management experience, allowing for clear scope definition, organized planning, and structured maintenance execution.",
+    "approach_title": "Professional Experience in Commercial and Institutional Facilities",
+    "approach1": "Our team has prior experience in commercial, hospital, and corporate facilities, participating in maintenance work, technical coordination, and interior improvements in active operational environments.",
+    "approach2": "The accumulated experience in these environments has allowed us to develop a structured approach focused on operational continuity, institutional image, and prevention.",
     "mission_title": "Mission",
     "mission": "To provide preventive and corrective maintenance services for commercial and institutional facilities in Puerto Rico through a structured, organized, and transparent model that ensures operational continuity, failure prevention, and administrative control.",
     "vision_title": "Vision",
     "vision": "To become a leading reference in Puerto Rico for structured preventive maintenance in commercial and institutional facilities, recognized for organization, reliability, and scalable service models.",
     "values_title": "Values",
     "values": [
-      { "title": "Professionalism", "desc": "We operate under clear standards of conduct and accountability." },
+      { "title": "Structure", "desc": "We operate under organized frameworks that ensure consistent planning and clear execution." },
       { "title": "Prevention", "desc": "We prioritize early identification of conditions to avoid operational disruptions." },
-      { "title": "Transparency", "desc": "We maintain clear communication in every intervention." },
-      { "title": "Organization", "desc": "We work under structured and scheduled service frameworks." },
-      { "title": "Operational Responsibility", "desc": "We define service scope clearly to ensure proper technical execution." }
+      { "title": "Control", "desc": "We maintain documented tracking of every intervention and facility status." },
+      { "title": "Responsibility", "desc": "We clearly define service scope and stand behind our commitments." },
+      { "title": "Trust", "desc": "We build lasting relationships through consistency, transparency, and follow-through." },
+      { "title": "Legal Compliance", "desc": "We operate under contractual responsibility and applicable regulatory compliance." }
     ]
   },
   "contact": {
-    "page_title": "Request a Proposal",
-    "intro": "If your organization is seeking a structured maintenance model focused on prevention and operational control, contact us for more information.",
+    "page_title": "Schedule a Meeting",
+    "intro": "If your organization is looking for a structured maintenance model, we are available to schedule a meeting and assess your operational needs.",
     "phone": "(787) 590-1577",
-    "email": "admin@agfacilitypr.com",
+    "email": "info@agfacilitypr.com",
+    "appointment_note": "Service coordinated by prior appointment.",
+    "coverage_title": "Coverage in Puerto Rico",
+    "coverage_text": "Services available for commercial and institutional facilities across the island.",
     "form": {
       "name": "Name",
       "company": "Company",
       "phone": "Phone",
       "email": "Email",
       "message": "Message",
-      "submit": "Submit Request",
+      "submit": "Request Proposal or Schedule Meeting",
       "success": "Your request was sent successfully. We will contact you soon.",
       "error": "An error occurred. Please try again or contact us directly."
     }
