@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "model": "Nuestro Modelo",
+    "about": "Nosotros",
+    "contact": "Contacto"
+  },
+  "header": {
+    "phone": "(787) 590-1577"
+  },
+  "home": {
+    "hero_tagline": "Estructura. Prevención. Control.",
+    "hero_title": "Mantenimiento Preventivo Estructurado",
+    "hero_subtitle": "para Facilidades Comerciales e Institucionales",
+    "hero_desc": "Un modelo estructurado para organizaciones que exigen control.",
+    "hero_cta": "Solicitar Propuesta",
+    "brief_title": "¿Qué hacemos?",
+    "brief_text": "AG Facility Services ofrece mantenimiento preventivo y correctivo bajo un modelo estructurado orientado a continuidad operacional y planificación técnica.",
+    "quick_access": "Accesos Directos"
+  },
+  "services": {
+    "page_title": "Servicios de Mantenimiento",
+    "intro": "AG Facility Services ofrece mantenimiento preventivo y correctivo para facilidades comerciales e institucionales bajo un modelo estructurado orientado a continuidad operacional y control técnico.",
+    "sub_intro": "Nuestros servicios se organizan mediante esquemas de atención planificados y ajustados a la operación específica de cada facilidad.",
+    "areas_title": "Áreas de Servicio",
+    "areas": [
+      "Sistemas eléctricos",
+      "Sistemas de plomería",
+      "Sistemas de aire acondicionado",
+      "Mantenimiento general de interiores y exteriores"
+    ]
+  },
+  "model": {
+    "page_title": "Nuestro Modelo de Mantenimiento",
+    "intro": "Un enfoque basado en prevención, estructura y control.",
+    "desc": "AG Facility Services trabaja bajo un modelo estructurado diseñado para anticipar condiciones, mantener planificación organizada y reducir situaciones imprevistas.",
+    "process_title": "Proceso de Inicio",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Reunión Exploratoria",
+        "desc": "Se coordina una visita breve para conocer la facilidad y su operación general."
+      },
+      {
+        "number": "02",
+        "title": "Presentación de Programa Base",
+        "desc": "Se presenta una propuesta de mantenimiento estructurado ajustada al tipo de facilidad."
+      },
+      {
+        "number": "03",
+        "title": "Activación del Servicio",
+        "desc": "Una vez firmado el contrato base, se realiza una inspección inicial formal para establecer parámetros operacionales."
+      },
+      {
+        "number": "04",
+        "title": "Ejecución Programada",
+        "desc": "Se implementa el esquema de servicio semanal o bisemanal según el programa contratado."
+      }
+    ]
+  },
+  "about": {
+    "page_title": "Sobre AG Facility Services",
+    "intro": "AG Facility Services es una empresa especializada en mantenimiento preventivo y correctivo para facilidades comerciales e institucionales en Puerto Rico.",
+    "intro2": "Nuestro modelo está diseñado para ofrecer estructura, control y continuidad operacional a través de visitas programadas, inspección continua y ejecución organizada.",
+    "approach_title": "Nuestro Enfoque",
+    "approach1": "AG Facility Services surge de experiencia directa en proyectos de construcción y mantenimiento de facilidades comerciales, integrando una base técnica sólida con un modelo estructurado orientado a prevención y control operativo.",
+    "approach2": "La dirección técnica cuenta con formación en ingeniería y experiencia en manejo de proyectos, lo que permite establecer alcances claros, planificación organizada y ejecución estructurada del mantenimiento.",
+    "mission_title": "Misión",
+    "mission": "Brindar servicios de mantenimiento preventivo y correctivo para facilidades comerciales e institucionales en Puerto Rico, mediante un modelo estructurado, organizado y transparente que garantice continuidad operacional, prevención de fallas y control administrativo.",
+    "vision_title": "Visión",
+    "vision": "Convertirnos en la empresa de referencia en Puerto Rico en mantenimiento preventivo estructurado para facilidades comerciales e institucionales, destacándonos por nuestra organización, confiabilidad y modelo de servicio escalable.",
+    "values_title": "Valores",
+    "values": [
+      { "title": "Profesionalismo", "desc": "Operamos bajo estándares claros de conducta y cumplimiento." },
+      { "title": "Prevención", "desc": "Priorizamos la identificación temprana de condiciones para evitar interrupciones operacionales." },
+      { "title": "Transparencia", "desc": "Mantenemos comunicación clara en cada intervención." },
+      { "title": "Organización", "desc": "Trabajamos bajo esquemas estructurados y programados." },
+      { "title": "Responsabilidad Operacional", "desc": "Delimitamos claramente los alcances del servicio para garantizar ejecución técnica adecuada." }
+    ]
+  },
+  "contact": {
+    "page_title": "Solicitar Propuesta",
+    "intro": "Si desea conocer cómo estructurar el mantenimiento de su facilidad bajo un modelo preventivo y programado, puede comunicarse con nosotros.",
+    "phone": "(787) 590-1577",
+    "email": "admin@agfacilitypr.com",
+    "form": {
+      "name": "Nombre",
+      "company": "Empresa",
+      "phone": "Teléfono",
+      "email": "Correo electrónico",
+      "message": "Mensaje",
+      "submit": "Enviar Solicitud",
+      "success": "Su solicitud fue enviada correctamente. Le contactaremos pronto.",
+      "error": "Ocurrió un error. Por favor intente nuevamente o escríbanos directamente."
+    }
+  },
+  "footer": {
+    "tagline": "Estructura. Prevención. Control.",
+    "rights": "© 2025 AG Facility Services. Todos los derechos reservados."
+  }
+}
+

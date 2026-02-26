@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "model": "Our Model",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "header": {
+    "phone": "(787) 590-1577"
+  },
+  "home": {
+    "hero_tagline": "Structure. Prevention. Control.",
+    "hero_title": "Structured Preventive Maintenance",
+    "hero_subtitle": "for Commercial and Institutional Facilities",
+    "hero_desc": "A structured model for organizations that demand control.",
+    "hero_cta": "Request Proposal",
+    "brief_title": "What We Do",
+    "brief_text": "AG Facility Services provides preventive and corrective maintenance under a structured model focused on operational continuity and technical planning.",
+    "quick_access": "Quick Access"
+  },
+  "services": {
+    "page_title": "Maintenance Services",
+    "intro": "AG Facility Services provides preventive and corrective maintenance for commercial and institutional facilities under a structured model designed to ensure operational continuity and technical control.",
+    "sub_intro": "Our services are organized through planned service frameworks tailored to each facility's operational needs.",
+    "areas_title": "Service Areas",
+    "areas": [
+      "Electrical systems",
+      "Plumbing systems",
+      "Air conditioning systems",
+      "General interior and exterior maintenance"
+    ]
+  },
+  "model": {
+    "page_title": "Our Maintenance Model",
+    "intro": "An approach based on prevention, structure, and control.",
+    "desc": "AG Facility Services operates under a structured maintenance model designed to anticipate conditions, maintain organized planning, and reduce unexpected operational disruptions.",
+    "process_title": "Service Initiation Process",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Exploratory Meeting",
+        "desc": "A brief visit is scheduled to understand the facility and its general operation."
+      },
+      {
+        "number": "02",
+        "title": "Base Program Presentation",
+        "desc": "A structured maintenance proposal is presented according to the facility type."
+      },
+      {
+        "number": "03",
+        "title": "Service Activation",
+        "desc": "Once the base agreement is executed, a formal initial inspection is conducted to establish operational parameters."
+      },
+      {
+        "number": "04",
+        "title": "Scheduled Execution",
+        "desc": "The service framework is implemented on a weekly or biweekly basis according to the contracted program."
+      }
+    ]
+  },
+  "about": {
+    "page_title": "About AG Facility Services",
+    "intro": "AG Facility Services specializes in preventive and corrective maintenance for commercial and institutional facilities in Puerto Rico.",
+    "intro2": "Our model is designed to provide structure, control, and operational continuity through scheduled visits, continuous oversight, and organized execution.",
+    "approach_title": "Our Approach",
+    "approach1": "AG Facility Services is built upon direct experience in construction and facility maintenance projects, integrating a strong technical foundation with a structured, prevention-oriented operational model.",
+    "approach2": "Technical leadership is supported by engineering background and project management experience, allowing for clear scope definition, organized planning, and structured maintenance execution.",
+    "mission_title": "Mission",
+    "mission": "To provide preventive and corrective maintenance services for commercial and institutional facilities in Puerto Rico through a structured, organized, and transparent model that ensures operational continuity, failure prevention, and administrative control.",
+    "vision_title": "Vision",
+    "vision": "To become a leading reference in Puerto Rico for structured preventive maintenance in commercial and institutional facilities, recognized for organization, reliability, and scalable service models.",
+    "values_title": "Values",
+    "values": [
+      { "title": "Professionalism", "desc": "We operate under clear standards of conduct and accountability." },
+      { "title": "Prevention", "desc": "We prioritize early identification of conditions to avoid operational disruptions." },
+      { "title": "Transparency", "desc": "We maintain clear communication in every intervention." },
+      { "title": "Organization", "desc": "We work under structured and scheduled service frameworks." },
+      { "title": "Operational Responsibility", "desc": "We define service scope clearly to ensure proper technical execution." }
+    ]
+  },
+  "contact": {
+    "page_title": "Request a Proposal",
+    "intro": "If your organization is seeking a structured maintenance model focused on prevention and operational control, contact us for more information.",
+    "phone": "(787) 590-1577",
+    "email": "admin@agfacilitypr.com",
+    "form": {
+      "name": "Name",
+      "company": "Company",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Submit Request",
+      "success": "Your request was sent successfully. We will contact you soon.",
+      "error": "An error occurred. Please try again or contact us directly."
+    }
+  },
+  "footer": {
+    "tagline": "Structure. Prevention. Control.",
+    "rights": "© 2025 AG Facility Services. All rights reserved."
+  }
+}
+
