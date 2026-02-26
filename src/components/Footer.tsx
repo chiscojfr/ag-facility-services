@@ -16,7 +16,8 @@ export default function Footer() {
               <img
                 src={`${import.meta.env.BASE_URL}logo2.png`}
                 alt="AG Facility Services"
-                className="h-10 w-auto object-contain brightness-0 invert"
+                className="h-10 w-auto object-contain"
+                style={{ filter: 'brightness(0) invert(1)' }}
               />
             </div>
             <p className="text-sm text-blue-200">{t('footer.tagline')}</p>
