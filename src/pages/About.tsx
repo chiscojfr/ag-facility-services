@@ -31,16 +31,26 @@ export default function About() {
         </div>
       </section>
 
+      {/* Institutional photo */}
+      <div
+        className="w-full h-64 md:h-80"
+        style={{
+          backgroundImage: `url('https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1920&q=80')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      />
+
       {/* Intro 2 */}
       <section className="bg-white py-14 px-4">
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-3xl mx-auto text-center">
           <p className="text-[#333333] text-base leading-relaxed">{t('about.intro2')}</p>
         </div>
       </section>
 
       {/* Approach */}
       <section className="bg-[#F4F6F8] py-14 px-4">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-sm font-bold uppercase tracking-widest text-[#1B4E8C] mb-6">
             {t('about.approach_title')}
           </h2>

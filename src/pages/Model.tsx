@@ -20,6 +20,16 @@ export default function Model() {
         </div>
       </section>
 
+      {/* Institutional interior photo */}
+      <div
+        className="w-full h-64 md:h-80"
+        style={{
+          backgroundImage: `url('https://images.unsplash.com/photo-1497366412874-3415097a27e7?auto=format&fit=crop&w=1920&q=80')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      />
+
       {/* Description */}
       <section className="bg-white py-14 px-4">
         <div className="max-w-3xl mx-auto text-center space-y-4">

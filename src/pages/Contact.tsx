@@ -39,7 +39,14 @@ export default function Contact() {
   return (
     <main>
       {/* Page header */}
-      <section className="bg-[#1B4E8C] text-white py-20 px-4">
+      <section
+        className="relative text-white py-20 px-4"
+        style={{
+          backgroundImage: `linear-gradient(rgba(27,78,140,0.82), rgba(27,78,140,0.82)), url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1920&q=80')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-3xl md:text-4xl font-bold mb-4">{t('contact.page_title')}</h1>
           <p className="text-blue-100 text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
