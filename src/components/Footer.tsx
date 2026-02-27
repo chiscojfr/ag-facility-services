@@ -46,9 +46,9 @@ export default function Footer() {
                 <Phone size={14} />
                 (787) 590-1577
               </a>
-              <a href="mailto:admin@agfacilitypr.com" className="flex items-center gap-2 text-sm text-blue-100 hover:text-white transition-colors">
+              <a href="mailto:info@agfacilitypr.com" className="flex items-center gap-2 text-sm text-blue-100 hover:text-white transition-colors">
                 <Mail size={14} />
-                admin@agfacilitypr.com
+                info@agfacilitypr.com
               </a>
             </div>
           </div>

@@ -14,7 +14,7 @@
     "hero_title": "Mantenimiento Operativo Estructurado para Facilidades Institucionales",
     "hero_subtitle": "",
     "hero_desc": "Servicio preventivo programado, gestión operativa continua y control documentado para organizaciones que valoran orden, continuidad y planificación.",
-    "hero_cta": "Solicitar Propuesta",
+    "hero_cta": "Coordinar Reunión",
     "brief_title": "¿Qué hacemos?",
     "brief_text": "Gestión estructurada de mantenimiento institucional con enfoque directo y accesible.",
     "quick_access": "Accesos Directos"
@@ -28,17 +28,17 @@
       {
         "title": "Mantenimiento Interior",
         "desc": "Conservación y corrección de elementos internos de la facilidad.",
-        "examples": "Plafones acústicos · Gypsum board · Pintura correctiva · Ajustes de puertas"
+        "examples": "Plafones acústicos · Gypsum board · Pintura · Zócalos · Losas · Puertas · Muebles · Cristales · Fascias"
       },
       {
         "title": "Mantenimiento Eléctrico Preventivo y Correctivo",
-        "desc": "Supervisión y atención de componentes eléctricos operativos.",
-        "examples": "Luminarias · Interruptores · Receptáculos · Verificaciones visuales"
+        "desc": "Inspección y atención de componentes eléctricos operativos.",
+        "examples": "Luminarias · Interruptores · Receptáculos · Paneles eléctricos"
       },
       {
         "title": "Mantenimiento de Plomería Preventivo y Correctivo",
         "desc": "Intervenciones programadas en sistemas sanitarios visibles.",
-        "examples": "Grifería · Sanitarios · Llaves angulares · Inspección de fugas visibles"
+        "examples": "Grifería · Llaves angulares · Sanitarios · Inspección de fugas visibles"
       },
       {
         "title": "Mantenimiento de Aire Acondicionado",
@@ -48,10 +48,10 @@
       {
         "title": "Mantenimiento Exterior y Áreas Comunes",
         "desc": "Conservación de áreas externas para mantener seguridad e imagen institucional.",
-        "examples": "Limpieza a presión · Placas solares · Pintura de estacionamientos · Drenajes básicos"
+        "examples": "Limpieza a presión · Placas solares · Pintura correctiva · Líneas de estacionamiento · Engrase de portones · Resanado de paredes"
       }
     ],
-    "footer_note": "Servicios y proyectos adicionales disponibles bajo evaluación técnica y cotización independiente."
+    "footer_note": "Servicios adicionales disponibles bajo evaluación técnica."
   },
   "model": {
     "page_title": "Nuestro Modelo de Mantenimiento",
@@ -117,7 +117,7 @@
       "phone": "Teléfono",
       "email": "Correo electrónico",
       "message": "Mensaje",
-      "submit": "Solicitar Propuesta o Coordinar Reunión",
+      "submit": "Coordinar Reunión",
       "success": "Su solicitud fue enviada correctamente. Le contactaremos pronto.",
       "error": "Ocurrió un error. Por favor intente nuevamente o escríbanos directamente."
     }

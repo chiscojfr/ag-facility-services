@@ -33,7 +33,7 @@ export default function About() {
 
       {/* Intro 2 */}
       <section className="bg-white py-14 px-4">
-        <div className="max-w-3xl mx-auto text-center">
+        <div className="max-w-3xl mx-auto">
           <p className="text-[#333333] text-base leading-relaxed">{t('about.intro2')}</p>
         </div>
       </section>
@@ -41,7 +41,7 @@ export default function About() {
       {/* Approach */}
       <section className="bg-[#F4F6F8] py-14 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-sm font-bold uppercase tracking-widest text-[#1B4E8C] mb-6 text-center">
+          <h2 className="text-sm font-bold uppercase tracking-widest text-[#1B4E8C] mb-6">
             {t('about.approach_title')}
           </h2>
           <div className="space-y-4">

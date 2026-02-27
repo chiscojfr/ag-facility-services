@@ -14,7 +14,7 @@
     "hero_title": "Structured Operational Maintenance for Institutional Facilities",
     "hero_subtitle": "",
     "hero_desc": "Scheduled preventive service, continuous operational management, and documented control for organizations that value order, continuity, and planning.",
-    "hero_cta": "Request Proposal",
+    "hero_cta": "Schedule a Meeting",
     "brief_title": "What We Do",
     "brief_text": "Structured institutional facility management with a direct and accessible approach.",
     "quick_access": "Quick Access"
@@ -28,17 +28,17 @@
       {
         "title": "Interior Maintenance",
         "desc": "Preservation and correction of internal facility elements.",
-        "examples": "Acoustic ceiling tiles · Gypsum board · Corrective painting · Door adjustments"
+        "examples": "Acoustic ceiling tiles · Gypsum board · Painting · Baseboards · Flooring · Doors · Furniture · Glass · Fascias"
       },
       {
         "title": "Preventive and Corrective Electrical Maintenance",
-        "desc": "Supervision and care of operational electrical components.",
-        "examples": "Lighting fixtures · Switches · Receptacles · Visual panel inspections"
+        "desc": "Inspection and care of operational electrical components.",
+        "examples": "Lighting fixtures · Switches · Receptacles · Electrical panels"
       },
       {
         "title": "Preventive and Corrective Plumbing Maintenance",
         "desc": "Scheduled interventions on visible sanitary systems.",
-        "examples": "Faucets · Toilets · Angle valves · Visible leak inspection"
+        "examples": "Faucets · Angle valves · Toilets · Visible leak inspection"
       },
       {
         "title": "Air Conditioning Maintenance",
@@ -48,10 +48,10 @@
       {
         "title": "Exterior and Common Areas Maintenance",
         "desc": "Preservation of external areas to maintain safety and institutional image.",
-        "examples": "Pressure washing · Solar panels · Parking lot painting · Basic drain inspection"
+        "examples": "Pressure washing · Solar panels · Corrective painting · Parking lines · Gate lubrication · Wall patching"
       }
     ],
-    "footer_note": "Additional services and projects available under technical evaluation and independent quotation."
+    "footer_note": "Additional services available under technical evaluation."
   },
   "model": {
     "page_title": "Our Maintenance Model",
@@ -117,7 +117,7 @@
       "phone": "Phone",
       "email": "Email",
       "message": "Message",
-      "submit": "Request Proposal or Schedule Meeting",
+      "submit": "Schedule a Meeting",
       "success": "Your request was sent successfully. We will contact you soon.",
       "error": "An error occurred. Please try again or contact us directly."
     }

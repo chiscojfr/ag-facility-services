@@ -39,21 +39,21 @@ export default function Home() {
       <section
         className="relative min-h-[90vh] flex items-center justify-center text-white"
         style={{
-          backgroundImage: `linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1920&q=80')`,
+          backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1920&q=80')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
       >
         <div className="text-center px-4 max-w-3xl mx-auto">
-          <p className="text-sm font-semibold tracking-[0.3em] uppercase text-blue-200 mb-4">
+          <p className="text-2xl md:text-3xl font-bold tracking-wide text-white mb-2">
+            AG Facility Services
+          </p>
+          <p className="text-xs font-semibold tracking-[0.3em] uppercase text-blue-200 mb-6">
             {t('home.hero_tagline')}
           </p>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-2">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-8">
             {t('home.hero_title')}
           </h1>
-          <p className="text-xl md:text-2xl text-blue-100 mb-6">
-            {t('home.hero_subtitle')}
-          </p>
           <p className="text-base md:text-lg text-gray-200 mb-10 max-w-xl mx-auto">
             {t('home.hero_desc')}
           </p>
