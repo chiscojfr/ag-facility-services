@@ -39,7 +39,7 @@ export default function Home() {
       <section
         className="relative min-h-[90vh] flex items-center justify-center text-white"
         style={{
-          backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&w=1920&q=80')`,
+          backgroundImage: `linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('${import.meta.env.BASE_URL}hero-inspection.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
