@@ -8,11 +8,19 @@ interface ServiceArea {
 }
 
 const icons = [
-  <Layers size={32} className="text-[#1B4E8C]" />,
-  <Zap size={32} className="text-[#1B4E8C]" />,
-  <Droplets size={32} className="text-[#1B4E8C]" />,
-  <Wind size={32} className="text-[#1B4E8C]" />,
-  <Leaf size={32} className="text-[#1B4E8C]" />,
+  <Layers size={20} className="text-[#1B4E8C]" />,
+  <Zap size={20} className="text-[#1B4E8C]" />,
+  <Droplets size={20} className="text-[#1B4E8C]" />,
+  <Wind size={20} className="text-[#1B4E8C]" />,
+  <Leaf size={20} className="text-[#1B4E8C]" />,
+];
+
+const serviceImages = [
+  { url: `${import.meta.env.BASE_URL}photo-luminaria-1.png`, pos: 'center top' },
+  { url: `${import.meta.env.BASE_URL}photo-electrico.png`, pos: '60% 10%' },
+  { url: `${import.meta.env.BASE_URL}photo-plomero.png`, pos: 'center 20%' },
+  { url: `${import.meta.env.BASE_URL}photo-aire.png`, pos: 'center 15%' },
+  { url: `${import.meta.env.BASE_URL}photo-exterior.png`, pos: 'center 30%' },
 ];
 
 export default function Services() {
@@ -38,19 +46,34 @@ export default function Services() {
         </div>
       </section>
 
-      {/* Service areas */}
+      {/* Service areas — Fuller Group style: image + icon + title + desc */}
       <section className="bg-[#F4F6F8] py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {areas.map((area, idx) => (
               <div
                 key={idx}
-                className="bg-white border border-gray-100 rounded-lg p-6 flex flex-col gap-4 hover:shadow-md hover:border-[#1B4E8C] transition-all"
+                className="bg-white border border-gray-100 rounded-lg overflow-hidden hover:shadow-md hover:border-[#1B4E8C] transition-all flex flex-col"
               >
-                <div>{icons[idx]}</div>
-                <h3 className="text-sm font-bold text-[#1B4E8C] leading-snug">{area.title}</h3>
-                <p className="text-sm text-[#333333] leading-relaxed">{area.desc}</p>
-                <p className="text-xs text-[#666666] leading-relaxed border-t border-gray-100 pt-3">{area.examples}</p>
+                {/* Photo */}
+                <div
+                  className="h-64 sm:h-52 bg-cover bg-no-repeat"
+                  style={{
+                    backgroundImage: `url('${serviceImages[idx].url}')`,
+                    backgroundPosition: serviceImages[idx].pos,
+                  }}
+                />
+                {/* Content */}
+                <div className="p-6 flex flex-col gap-3 flex-1">
+                  <div className="flex items-center gap-2">
+                    {icons[idx]}
+                    <h3 className="text-sm font-bold text-[#1B4E8C] leading-snug">{area.title}</h3>
+                  </div>
+                  <p className="text-sm text-[#333333] leading-relaxed">{area.desc}</p>
+                  <p className="text-xs text-[#666666] leading-relaxed border-t border-gray-100 pt-3 mt-auto">
+                    {area.examples}
+                  </p>
+                </div>
               </div>
             ))}
           </div>

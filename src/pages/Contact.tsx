@@ -42,7 +42,7 @@ export default function Contact() {
       <section
         className="relative text-white py-20 px-4"
         style={{
-          backgroundImage: `linear-gradient(rgba(27,78,140,0.82), rgba(27,78,140,0.82)), url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1920&q=80')`,
+          backgroundImage: `linear-gradient(rgba(27,78,140,0.78), rgba(27,78,140,0.78)), url('https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?auto=format&fit=crop&w=1920&q=80')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}

@@ -6,6 +6,13 @@ interface Step {
   desc: string;
 }
 
+const stepImages = [
+  { url: `${import.meta.env.BASE_URL}hero-inspection.png`, pos: 'center 20%' },
+  { url: `${import.meta.env.BASE_URL}presentacion.png`, pos: 'center 15%' },
+  { url: `${import.meta.env.BASE_URL}activacion.png`, pos: 'center 15%' },
+  { url: `${import.meta.env.BASE_URL}ejecucion.png`, pos: 'center 15%' },
+];
+
 export default function Model() {
   const { t } = useTranslation();
   const steps: Step[] = t('model.steps', { returnObjects: true }) as Step[];
@@ -20,16 +27,6 @@ export default function Model() {
         </div>
       </section>
 
-      {/* Institutional interior photo */}
-      <div
-        className="w-full h-64 md:h-80"
-        style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1497366412874-3415097a27e7?auto=format&fit=crop&w=1920&q=80')`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      />
-
       {/* Description */}
       <section className="bg-white py-14 px-4">
         <div className="max-w-3xl mx-auto text-center space-y-4">
@@ -38,26 +35,33 @@ export default function Model() {
         </div>
       </section>
 
-      {/* 4-step process */}
+      {/* 4-step process with photos */}
       <section className="bg-[#F4F6F8] py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-sm font-bold text-center text-[#333333] uppercase tracking-widest mb-12">
             {t('model.process_title')}
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {steps.map((step, idx) => (
               <div
                 key={idx}
-                className="bg-white border border-gray-100 rounded-lg p-8 hover:shadow-md hover:border-[#1B4E8C] transition-all"
+                className="bg-white border border-gray-100 rounded-lg overflow-hidden hover:shadow-md hover:border-[#1B4E8C] transition-all flex flex-col"
               >
-                <div className="flex items-start gap-4">
-                  <span className="text-3xl font-bold text-[#1B4E8C] opacity-30 leading-none shrink-0">
+                {/* Photo */}
+                <div
+                  className="h-56 sm:h-44 bg-cover bg-no-repeat"
+                  style={{
+                    backgroundImage: `url('${stepImages[idx].url}')`,
+                    backgroundPosition: stepImages[idx].pos,
+                  }}
+                />
+                {/* Content */}
+                <div className="p-5 flex flex-col gap-2 flex-1">
+                  <span className="text-2xl font-bold text-[#1B4E8C] opacity-25 leading-none">
                     {step.number}
                   </span>
-                  <div>
-                    <h3 className="text-base font-semibold text-[#1B4E8C] mb-2">{step.title}</h3>
-                    <p className="text-sm text-[#333333] leading-relaxed">{step.desc}</p>
-                  </div>
+                  <h3 className="text-sm font-semibold text-[#1B4E8C] leading-snug">{step.title}</h3>
+                  <p className="text-xs text-[#333333] leading-relaxed">{step.desc}</p>
                 </div>
               </div>
             ))}
