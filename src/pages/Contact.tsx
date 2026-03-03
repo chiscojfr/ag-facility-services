@@ -20,7 +20,7 @@ export default function Contact() {
     setStatus('sending');
     try {
       // Using Formspree as a simple email backend (replace with actual form ID)
-      const response = await fetch('https://formspree.io/f/xdkobgqv', {
+      const response = await fetch('https://formspree.io/f/mvzbjnzz', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify({ ...form, _replyto: form.email }),
