@@ -43,7 +43,7 @@ function LangWrapper() {
 
 function App() {
   return (
-    <BrowserRouter basename="/ag-facility-services">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Navigate to="/es/" replace />} />
         <Route path="/:lang/*" element={<LangWrapper />} />
