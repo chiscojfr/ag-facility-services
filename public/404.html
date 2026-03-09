@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>AG Facility Services</title>
+    <script>
+      // SPA redirect trick for GitHub Pages
+      // Captures the URL and redirects to index.html with the path as a query param
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        '/?p=' + encodeURIComponent(l.pathname + l.search) + l.hash
+      );
+    </script>
+  </head>
+  <body></body>
+</html>
+
